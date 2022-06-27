@@ -1,0 +1,89 @@
+/* code */
+
+body{
+	background-color: #faf5af;;
+	margin: 0;
+}
+
+header{
+	background-color: rgb(201, 201, 201);
+}
+
+h1{
+	text-align: center;
+	color: rgb(32, 93, 118);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(32, 93, 118);
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+section a:link{
+	color: #EA6E2F;
+}
+section a:visited {
+	color: #EA6E2F;
+}
+
+footer{
+	background-color: #ffc122;
+}
+
+/* class */
+
+.cabecalho{
+	background-color: rgb(201, 201, 201);
+	padding: 10px;
+  	display: inline-block;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+}
+
+.imgcenter{
+	padding: 30px;
+	margin-left: 120%;
+ 	width: 50%;
+}
+
+.rodape{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 1px;
+}
+
+/* id */
+
+#circulo {
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	margin: 1px;
+	background-color: dimgrey;
+}
+
+#imgheader{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+}
+
+#lista{
+	margin-left: 22%;
+}
+
+
+
+
+

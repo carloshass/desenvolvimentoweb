@@ -1,0 +1,93 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5; /* espaçamento entre as linhas */
+    color: #444;
+    font-size: 100%; /* ajuda responsivo */
+    
+}
+li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #00CCFF;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+img, figure, video, embed{
+    max-width: 100%;
+}
+.trabalho{
+    width: 100%;
+    height: 48px;
+    margin-bottom: 2.25em;
+    margin-top: 2.25em;
+}
+.logo{
+    width: 20.74%;
+    float: left;
+}
+.work1{
+    width: 74.47%;
+    float: right;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block; /* se diminuir não fica vertical e não quebra, flex quebraria*/
+    font-size: 0.75em;
+    margin-top: 0.625em;
+    margin-left: 1.25em; /* se usar padding da erro no sublinhado e background color*/
+}
+nav li a{
+    color: #999;
+}
+.banner{
+    background: url('../img/banner.jpg');
+    height: 450px;
+    margin-bottom: 3em;
+    position: relative; /*fixed quando gira a página e header tem posição fixa */
+}
+.caixa{
+    position: absolute;
+    top: 3em;
+    background: rgba(0, 0, 0, 0.6);
+    width: 42.55%;
+    padding: 1.5em 0.875em 1.5em 2.5em;
+}
+h1{
+    font-size: 2.5em;
+    color: #fff;
+}
+.caixa p{
+    font-size: 1.125em;
+    color: #fff;
+}
+article{
+    width: 23.40%;
+    float: left;
+    margin-right: 2.12%;
+}
+article:last-child{ /*ultimo filho tem comportamento*/
+    margin-right: 0;
+}
+h2{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
+    text-align: justify;
+}
+footer{
+    width: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.footer{
+    font-size: 0.625em;
+}

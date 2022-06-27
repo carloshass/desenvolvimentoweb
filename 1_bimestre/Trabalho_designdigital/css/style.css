@@ -1,0 +1,130 @@
+.container {
+    padding: 5px;
+    width: 1128px;
+    height: 1178px;
+    text-align: justify;
+}
+header .trabalho{   
+    min-height: 80px;
+}
+header .logo{
+    display: flex;
+    float: left;
+    padding-top: 10px;
+    width: 15%;
+    
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 10px;
+    color: #999999;
+    max-height: 30px;
+    
+}
+header li{
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+header .trabalho a:link{
+    text-decoration: none;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+header .trabalho a:hover {
+    color:#8e8377;
+    background-color:#000000;
+    text-decoration:none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.banner{
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    min-height: 445px;
+    min-width: 1128px;
+    padding-top: 0px;
+}
+
+
+.caixa{
+    background-color:rgba(00, 00, 00, 0.5);
+    width: 480px;
+    height: 214px;
+    position: absolute;
+    margin: 4% 57.45% 71.44% 0%;
+}
+
+.caixa h1{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 8%;
+    color: white;
+    font-size: 42px;
+    margin-top: 2%;
+}
+.caixa p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 20%;
+    margin-top: 2%;
+    font-size: 20px;
+    color: white;
+}
+.caixa a{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 20%;
+    margin-top: 0%;
+    font-size: 17px;
+}
+
+section{
+    display: inline-block;
+    height: 450px;
+    /* background-color: #000000; */
+    align-items: center;
+    
+}
+
+section article{
+    display: inline-block;
+    margin-left: -1px;
+    margin-top: 56px;
+    padding-right: 15px;
+    align-items: flex-start;
+   
+}
+
+article h2{
+    font-family: 'roboto', sans-serif;
+    font-size: 26px;
+    width: 264px;
+    align-items: flex-start;
+    /* background-color: #000000; */
+
+    
+}
+
+article p{
+    width: 265  px;
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    /* background-color: #000000; */
+}
+
+section .article_img{
+    width: 264px;
+    height: 213px;
+}
+
+footer p{
+    padding-top: 10%;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+}

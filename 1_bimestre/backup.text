@@ -1,0 +1,120 @@
+ <section class="flex2">
+        <div class="projects">
+            <p class="sobre1">Projetos</p>
+            <p class="sobre2">Para acessar os projetos clique na imagem.</p>
+            <div class="projeto">
+                <a href="./aula01/index.html"><img src="./img/aula01.jpg" alt="" class="imgpro"></a>
+                <p class="projetodesc">
+                    O objetivo desta aula foi de aprender a inserir tags e imagens usando apenas HTML.
+                </p>
+            </div>
+            <div class="projeto">
+                <a href="./aula02/index.html"><img src="./img/aula02.jpg" alt="" class="imgpro" ></a>
+                <p class="projetodesc">
+                    Nesta aula no objetivo foi de inserir liks que possam ser direcionados para outras abas do projeto.
+                    O tema escolhido foi o de <span style="color: red;">NATAL</span>.
+                </p>
+                
+
+            </div>
+            <div class="projeto">
+                <img src="./img/aula3.jpg" alt="" class="imgpro" href="./aula03/index.html">
+                <p class="projetodesc">
+                    Primeiro contato com CSS aconteceu aqui nesta aula, junto com isso aprendemos
+                    maneiras de trabalhar com tabelas em HTML.
+                </p>
+            </div>
+            <div class="projeto">
+
+                <p class="projetodescd">
+                    O primeiro projeto aonde conseguimos aplicar muito CSS para formatar, claro
+                    que a versão feita como trabalho de casa não ficou tão boa.
+                </p>
+                <img src="./img/tuts.jpg" alt="" class="imgpro" href="./Trabalho_tutstown/index.html">
+            </div>
+            <div class="projeto">
+                <img src="./img/tutsclass.jpg" alt="" class="imgpro" href="./Trabalho_designdigital/index.html">
+                <p class="projetodesc">
+                    Em classe vimos que não é tão díficil, é apenas preciso saber organizar os requisitos necessários
+                    nas estruturas necessárias.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    .flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.flex2>div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.imgpro {
+    max-width: 120px;
+    max-height: 10%;
+    padding: 10px 20px 10px 20px;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px; */
+
+    /* background-color: red; */
+}
+
+.projeto {
+    display: flex;
+    height: 130px;
+    align-items: center;
+    background-color: rgb(192, 194, 199);
+    margin-top: 10px;
+}
+
+.projects h3 {
+    font-size: medium;
+}
+
+.projeto a {
+    width: 50px;
+    margin-left: 20px;
+
+}
+
+.projetodesc {
+    margin-left: 180px;
+    padding-right: 20px;
+    background-color: red;
+}
+
+.projetodescd {
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.sobre1 {
+    font-size: 30px;
+    background-color: rgb(153, 170, 170);
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.sobre2 {
+    font-size: 15px;
+    background-color: rgb(153, 170, 170);
+    padding: 2px;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.aulatitle {
+    font-size: 30px;
+}
