@@ -1,0 +1,18 @@
+#showmateriamatematica, #showmateriaciencias, #shownatacao, #showjudo{
+    display: none;
+}
+
+#showmateriaportugues, #showclubedamusica{
+    display: block;
+}
+
+.tableAlignUsuario{
+    padding: 0.2em;
+    width: 28em;
+}
+
+.tableAlignComputer{
+    padding: 0.2em;
+    text-align: end;
+    color: green;
+}
